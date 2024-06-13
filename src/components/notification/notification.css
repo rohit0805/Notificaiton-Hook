@@ -1,0 +1,59 @@
+.notificationContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+}
+
+.notificationContainer:hover{
+  border: 2px solid #333;
+}
+
+.INFO{
+  background-color: #4caf50;
+}
+
+.SUCCESS{
+  background-color: #2196f3;
+}
+
+.WARNING{
+  background-color: #ff9800;
+}
+
+.ERROR{
+  background-color: #f44336;
+}
+
+.closeBtn{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.TOP_RIGHT{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.TOP_LEFT{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.BOTTOM_RIGHT{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.BOTTOM_LEFT{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
